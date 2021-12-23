@@ -50,6 +50,7 @@ export async function main(ns) {
         }
       }
     }
+    // eslint-disable-next-line
     await ns.sleep(10);
   }
 }

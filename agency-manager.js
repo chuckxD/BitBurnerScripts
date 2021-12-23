@@ -29,6 +29,7 @@ export async function main(ns) {
     if (factionsJoinedCheck) {
       allFactionsJoined = true;
     }
+    // eslint-disable-next-line no-await-in-loop
     await ns.sleep(1000);
   }
 }

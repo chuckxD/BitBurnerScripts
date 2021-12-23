@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable no-await-in-loop */
 export async function main(ns) {
   const neuroFlux = "NeuroFlux Governor";
   var desiredFactions = getDesiredFactions(ns);
@@ -102,7 +104,7 @@ export async function main(ns) {
         }
       }
     }
-
+    // eslint-disable-next-line
     await ns.sleep(1000);
   }
 }
